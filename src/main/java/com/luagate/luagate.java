@@ -29,22 +29,18 @@ public class luagate implements ModInitializer
 
 	Globals g = JsePlatform.standardGlobals();
 	luagate javaObj;
-    LuaValue luaObj = CoerceJavaToLua.coerce(javaObj);
+    	LuaValue luaObj = CoerceJavaToLua.coerce(javaObj);
 	
 	public static final String MOD_ID = "luagatemod";
 
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() 
 	{
-		//RESOUCE AREN'T LOADED IN THERE YET YOU MAGGOT
 
 		g.loadfile("mods/lua/main.lua").call(); //loading the main lua file
-		g.set("mdp", luaObj);  // make it available in Lua, mdp stand for main data parser (even if its really one that's the main job of it)
+		g.set("mdp", luaObj);  // make it available in Lua, mdp stand for main data parser (even if it isn't really one that's the main job of it)
 
 		CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> {
 			// A command that exists on both types of servers
