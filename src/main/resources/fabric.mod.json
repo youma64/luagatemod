@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "luagatemod",
+	"version": "${version}",
+	"name": "The Lua Gate",
+	"description": "Allow you to run lua script via Luaj in minecraft",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+		"sources": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	},
+	"license": "CC-BY-NC-4.0",
+	"icon": "assets/modid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.luagatemod.luagate"
+		],
+		"client": [
+			"com.luagatemod.luagateClient"
+		]
+	},
+	"mixins": [
+		"luagatemod.mixins.json",
+		{
+			"config": "luagatemod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
