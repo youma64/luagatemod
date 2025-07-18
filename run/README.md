@@ -1,0 +1,1 @@
+Inside this mod file you will find the the main lua directory, DO NOT DELETE main.lua and mainClient.lua
