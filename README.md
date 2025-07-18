@@ -11,6 +11,7 @@ The mod aim is to make you able to create, like an item, in only 1 or 2 function
 ## Mod status
 
 Client side : about 80% done
+
 Server side : 0%
 
 For now, the mod only allow you to do some bot since its client side only,
