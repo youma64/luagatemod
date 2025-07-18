@@ -1,5 +1,5 @@
-//Thats where you see that minecraft is spaghetti coded, the id for an item slot is not the same if you are manipulating it with gui or player data;
-// So one heres the result of my research :
+//Thats where you see that minecraft is a bit spaghetti coded, the id for an item slot is not the same if you are manipulating it with gui or player data;
+// So heres the result of my research :
 
 //WARNING : - 1 to 4 : crafting zone
 //			- 0 : result of craft
