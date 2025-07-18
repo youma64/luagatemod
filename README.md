@@ -1,4 +1,4 @@
-# Minecraft Lua gate
+# The Lua gate mod
 
 ## Introduction
 This mod allows you to code with the lua programming language in minecraft (for now 1.20.1 only).
