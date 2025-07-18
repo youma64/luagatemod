@@ -5,7 +5,7 @@ function InitClient()
       print("[LUA_DEBUG] : Call n°" .. count) --numbers of lua init made from java
 
       for i,class in ipairs(javaClassList) do
-            if class ~= nil then
+            if class == nil then
                   io.write("[LUA_DEBUG_CLIENT] this java class failed to load!, you will not be able to use it in lua! : ")
                   print(class) -- I had no idea how to print userdata in a more simple way
             end
