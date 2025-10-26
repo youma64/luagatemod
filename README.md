@@ -29,6 +29,5 @@ Thanks a lot to the [Luaj project](https://github.com/luaj/luaj), without it, th
 
 and even more, thanks to the fabric devs for making this [awesome mod loader](https://fabricmc.net/) !
 
-## LICENSE NOTICE
-the VERY restrictful license will be removed to a CC0 when the project is done.
-I simply do not want people to copy, make something awesome in less time, and I would crush my head for month wasted on making this mod.
+## LICENSE 
+Do whatever you want ! (WARNING : This project use Luaj so it got its license included too)
