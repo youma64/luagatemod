@@ -3,6 +3,9 @@
 ## Introduction
 This mod allows you to code with the lua programming language in minecraft (for now 1.20.1 only).
 
+26/10/2025 : Code is a bit bad, because this was my first project in Java AND modding in minecraft. Do not use it.
+              The project is dead, for now.
+
 ## Explanation
 I just wanted to make minecraft modding more easier and accessible, while you still learn how to code.
 
