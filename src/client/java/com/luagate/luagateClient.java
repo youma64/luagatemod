@@ -1,5 +1,3 @@
-// I KNOW THAT I COULD HAVE USED THE COERCE TO DIRECTLY USE MC LIBS, possibly. But I wanted to make modding easier because HO MY [F] THE AMOUNT OF DOCS I READ
-
 package com.luagatemod;
 
 
